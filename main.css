@@ -1,0 +1,224 @@
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    font-family: 'Poppins', sans-serif !important;
+}
+.image{
+    background-image: url(/1387424-18-wheeler-wallpaper-1920x1080-macbook.jpg);
+    background-size: auto;
+    height: 700px;
+    background-repeat: no-repeat;
+}
+.nav-link{
+    color: white !important;
+}
+.context{
+    position: absolute;
+    left: 8%;
+    right: 50%;
+    top: 20%;
+}
+.button_touch{
+    border-radius: 4px;
+    color: white;
+    background-color: #8A0707;
+    text-decoration: none;
+    padding: 8px 20px;
+    text-align: center;
+    border: none;
+    font-size: 16px;
+}
+.bt1{
+    margin-top: 5px;
+    transition-duration: 0.4s;
+    border-radius: 4px;
+    color: white;
+    background-color: transparent;
+    padding: 8px 20px;
+    text-align: center;
+    font-size: 16px;
+    border: #8A0707 2px solid;
+}
+.bt1:hover{
+    background-color:  #8A0707;
+}
+.grid{
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+.list_image{
+    height: 60px;
+    width: 100px;
+    
+}
+.certificate{
+    height: 150px;
+    width: 150px;
+}
+.grid1{
+    display: grid;
+}
+.transport{
+    background-color: #080d10;
+}
+.road{
+    padding: 150px;
+}
+.card-title {
+    font-size: 25px;
+    color: #8A0707;
+    font-weight: bold;
+}
+.card{
+    border-radius: 10px !important;
+    background-color:#212529 !important;
+    border: none;
+    padding: 45px;
+}
+.parallax{
+    background-image: url(/FWY_2560x1440.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 600px;
+    padding: 130px 0;
+}
+.parallax-text{
+    padding-top: 50px;
+    vertical-align: middle;
+}
+.radial{
+    display: inline-block;
+}
+.bot{
+    margin-bottom: 3rem;
+}
+.text-centre{
+    text-align: center;
+}
+.stack{
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
+.grid2{
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+.featured{
+    background-color: #8A0707;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: white;
+}
+.field-name{
+    width: 100%;
+    height: 50px;
+}
+.img{
+    height: 100px;
+    width: 100px;
+}
+.form{
+    line-height: 1.2;
+}
+.fourc{
+    color: white;
+}
+#feature{
+    background-color: #111117;
+}
+.section-2{
+    padding: 130px 0;
+}
+.justify-content-center{
+    justify-content: center !important;
+}
+.itemsc{
+    margin-bottom: 40px;
+}
+.cardf{
+    padding: 10px !important;
+}
+.imgf{
+    height: 80px;
+    width: 80px;
+}
+.timeline{
+    padding-top:30px ;
+}
+.row{
+    margin-right: 0px !important;
+}
+.heads{
+    padding-left: 5%;
+}
+.maa{
+    font-size: 5vw;
+    font-weight: 900; 
+    color: black;
+    
+}
+.weight{
+    padding-left: 40px !important;
+}
+.parra{
+    padding: 130px 0;
+}
+@media only screen and (max-device-width: 600px){
+    .maa{
+        font-size: 40px !important;
+    }
+}
+
+
+/*timeline*/
+.section-3{
+    padding: 130px 0;
+}
+.progressbar{
+    counter-reset: step;
+}
+.progressbar li{
+    list-style-type: none;
+    float: left;
+    width: 20%;
+    position: relative;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: bold;
+}
+.progressbar li::before{
+
+    content: counter(step);
+    counter-increment: step;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    border: #bb8277;
+    display: block;
+    text-align: center;
+    margin: 0 auto 10px auto;
+    border-radius: 50%;
+    background-color: #ebcca3;
+}
+.progressbar li::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 6px;
+    background-color: #ebcca3;
+    top: 23px;
+    left: -50%;
+    z-index: -1;
+}
+.progressbar li:first-child::after{
+    content: none;
+}
+.progressbar li.active{
+    color: #8A0707;
+}
+@media only screen and (max-device-width: 600px){
+    .progressbar li{
+        font-size: 10px !important;
+        color: blue;
+    }
+}
